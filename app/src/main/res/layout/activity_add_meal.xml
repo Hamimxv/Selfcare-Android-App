@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/menu2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Meal"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/invaders"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Meal Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal Name"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_meal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter meal name"
+        android:padding="8dp"/>
+
+    <!-- Calorie Intake -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorie Intake"
+        android:textSize="18sp"
+        android:textColor="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_calorie_intake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter calorie intake"
+        android:padding="8dp"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save_meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:backgroundTint="#090774"
+        android:fontFamily="@font/robots"
+        android:layout_marginTop="16dp" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:backgroundTint="#090774"
+        android:fontFamily="@font/robots"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

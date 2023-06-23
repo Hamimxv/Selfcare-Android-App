@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:background="@drawable/menu2"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Custom Meal Plans"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/invaders"
+        android:padding="16dp"/>
+
+    <!-- Custom Meal Plan 1 -->
+    <TextView
+        android:id="@+id/tv_meal_plan_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/invaders"
+        android:textColor="#090774"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Meal Plan 1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast: Scrambled eggs with spinach"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunch: Grilled chicken with mixed vegetables"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner: Baked salmon with quinoa and roasted asparagus"
+        android:padding="8dp"/>
+
+    <!-- Custom Meal Plan 2 -->
+    <TextView
+        android:id="@+id/tv_meal_plan_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/invaders"
+        android:textColor="#090774"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Meal Plan 2"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast: Oatmeal with berries and almond milk"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunch: Quinoa salad with grilled vegetables"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner: Turkey meatballs with whole wheat pasta"
+        android:padding="8dp"/>
+
+    <!-- Custom Meal Plan 3 -->
+    <TextView
+        android:id="@+id/tv_meal_plan_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/invaders"
+        android:textColor="#090774"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Meal Plan 3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breakfast: Greek yogurt with granola and fruits"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lunch: Grilled shrimp with quinoa and roasted vegetables"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dinner: Chicken breast with sweet potato and steamed broccoli"
+        android:padding="8dp"/>
+
+    <!-- Back button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

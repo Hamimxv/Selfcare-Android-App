@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu2"
+    tools:context=".myorders">
+
+
+  <LinearLayout
+      android:id="@+id/myorders"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_gravity="center"
+      android:gravity="center"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="MY ORDERS"
+        android:textColor="@color/gwhite"
+        android:textSize="35sp"
+        app:fontFamily="@font/invaders" />
+  </LinearLayout>
+
+  <ListView
+      android:id="@+id/cartdetails"
+      android:layout_width="350dp"
+      android:layout_height="386dp"
+      app:layout_constraintBottom_toTopOf="@+id/totalcost"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/myorders" />
+
+  <Button
+      android:id="@+id/backtomain"
+      android:layout_width="111dp"
+      android:layout_height="53dp"
+      android:layout_marginEnd="52dp"
+      android:layout_marginBottom="40dp"
+      android:background="@drawable/input_bg"
+      android:fontFamily="@font/robots"
+      android:text="BACK"
+      android:textColor="#090774"
+      android:textSize="20sp"
+      app:backgroundTint="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent" />
+
+  <Button
+      android:id="@+id/checkout"
+      android:layout_width="161dp"
+      android:layout_height="56dp"
+      android:layout_marginStart="55dp"
+      android:layout_marginBottom="41dp"
+      android:fontFamily="@font/robots"
+      android:text="CHECK OUT"
+      android:textColor="#090774"
+      android:textSize="20sp"
+      app:backgroundTint="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/totalcost"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="42dp"
+      android:text="TOTAL COST IS  "
+      android:textColor="@color/gwhite"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@+id/checkout"
+      app:layout_constraintStart_toStartOf="@+id/cartdetails" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

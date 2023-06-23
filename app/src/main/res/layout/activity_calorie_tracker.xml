@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@drawable/menu2">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-5dp"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calorie Tracker"
+        android:textColor="#090774"
+        android:textSize="30sp"
+        android:fontFamily="@font/invaders"
+        android:padding="16dp"/>
+
+
+    <!-- Meal Name -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Meal Name"
+        android:textSize="18sp"
+        android:textColor="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_meal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter meal name"
+        android:padding="8dp"/>
+
+    <!-- Calorie Intake -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calorie Intake"
+        android:textSize="18sp"
+        android:textColor="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/et_calorie_intake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter calorie intake"
+        android:padding="8dp"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#090774"
+        android:fontFamily="@font/robots"
+        android:layout_marginTop="16dp" />
+
+    <!-- Total Calorie -->
+    <TextView
+        android:id="@+id/tv_total_calorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Calorie: "
+        android:textSize="18sp"
+        android:textColor="#090774"
+        android:fontFamily="@font/robots"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#090774"
+        android:fontFamily="@font/robots"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
+
