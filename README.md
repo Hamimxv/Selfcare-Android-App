@@ -3,9 +3,8 @@
 The Selfcare app is a mobile application designed to empower individuals to take charge of their health and promote self-care. It provides users with a comprehensive platform to manage their health, monitor their progress, and access relevant resources.
 
 ## Creator
-Hamim Al Fardin
-Ratul Hasan
-Green University of Bangladesh
+- Hamim Al Fardin
+- Green University of Bangladesh
 
 ## Features
 
