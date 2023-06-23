@@ -19,7 +19,7 @@ The Selfcare app is a mobile application designed to empower individuals to take
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/selfcare-app.git`
+1. Clone the repository: `git clone https://github.com/Hamimxv/Selfcare-Android-App.git`
 2. Open the project in Android Studio.
 3. Build and run the app on an Android device or emulator.
 
